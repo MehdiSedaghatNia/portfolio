@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "poppins", Arial, sans-serif;
+    background-color: #f1f1f1;
+    color: #fff;
+}
+
+header {
+    background: linear-gradient(
+        90deg,
+        rgb(52, 58, 141) 21%,
+        rgb(29, 41, 77) 61%
+    );
+    padding: 2em .5em;
+}
+
+.newbie {
+    background: linear-gradient(
+        90deg,
+        rgba(242, 132, 62, 1) 21%,
+        rgba(239, 111, 69, 1) 61%
+    );
+    padding: 1em;
+    
+}
+
+.newbie-title {
+    margin: 1em;
+    border-bottom: 1px solid #fff;
+}
+
+.link-btn {
+    display: inline-block;
+    background-color: #1f1919;
+    color: #fff;
+    padding: .2em .5em;
+    border-radius: .2em;
+    text-decoration: none;
+
+}
